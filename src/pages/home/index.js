@@ -54,8 +54,8 @@ export function Home() {
           minimumValue={6}
           maximumValue={20}
           maximumTrackTintColor="#FF0000"
-          trackTintColor="##392DE9"
-          thumbImage={require("../../assets/thumb.png")}
+          trackTintColor="#392DE9"
+          thumbTintColor="#392DE9"
           value={size}
           onValueChange={(value) => setSize(value.toFixed(0))}
         />
